@@ -67,8 +67,7 @@ def main():
     
     if st.button('Classify!') and inputImage:
         classification = fungus_prediction(inputData)
-        
-    st.success(classification)
+        st.success(classification)
     
 
 
