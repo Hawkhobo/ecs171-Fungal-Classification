@@ -60,7 +60,7 @@ def main():
         imgName = inputImage.name.split('.')[0] #gets rid of .jpg or .jpeg extension in name
 
         st.subheader(imgName)
-        st.text('tenegrad value =' + str(tenegrad))
+        st.text('tenegrad value = ' + str(tenegrad))
         st.image([inputData, gray_image], caption=['Original Image', 'Grayscale Image'], width=300, channels='RBG')
 
     classification = ''
