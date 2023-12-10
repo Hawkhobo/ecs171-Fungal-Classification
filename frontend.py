@@ -29,8 +29,7 @@ def fungus_prediction(inputData):
 
     # Import model, run predictions on it    
     
-    loaded_model = pickle.load(open('WE ARE WORKING ON THE CNN', 'rb'))
-    # TODO: enter filepath relative to this file. Where will final model be saved?
+    loaded_model = pickle.load(open('./model.sav', 'rb'))
 
     prediction = loaded_model.predict(inputData)
     
